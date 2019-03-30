@@ -1,0 +1,92 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+header {
+    border: 1px solid red;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+#begintime {
+    border: 1px solid #040a2b;
+}
+
+#count {
+    font-size: 25px;
+}
+
+#quiz {
+    margin-left: 10px;
+    background: #b90909;
+    padding: 10px 20px 10px 20px;
+    width: 450px;
+    height: 750px;
+    border-radius: 30px;
+    float: left;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#textbox {
+    height: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: none;
+}
+
+#button {
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+/*#buttonhover {
+    background: red;
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+}*/
+#after_submit {
+    visibility: hidden;
+    background: #040a2b;
+    padding: 10px 20px 10px 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20px;
+    font-size: 25px;
+    color: whitesmoke
+}
+
+img {
+    width: 500px;
+    height: 450px;
+}
+
+footer {
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border: 1px solid #4aaaa5;
+    color: #ccc;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Marvel</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../Assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../Assets/css/style.css">
+        <script type ="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    </head>
+
+    <body background= "Img/Marvel.jpg">
+        <header>
+            <h1 id="Marvel Quiz">Marvel Quiz</h1>
+            <div id="begintime">To begin click the 2:00, You'll have 2 minutes to complete the quiz, click Finish to submit answers, remember you have time to answer questions don't rush</div>
+            <div id="count" onClick="">2:00</div>
+              
+        </header>
+        <form id = "quiz" name="quiz">
+
+            <p>What is Captain America's Shield made of?</p>
+            <input type = "radio" id="mc" name="question1" value="Adamantium">Adamantium<br>
+            <input type = "radio" id="mc" name="question1" value="Chromium">Chromium<br>
+            <input type = "radio" id="mc" name="question1" value="Vibranium">Vibranium<br>
+            <input type = "radio" id="mc" name="question1" value="Titanium">Titanium<br>
+            
+            <p>Where in Manhattan did the Avengers have their first headquarters?</p>
+            <input id = "textbook" type = "text" name="question2">
+            
+            <p>Who is Tony Stark's(Iron Man) best friend?</p>
+            <input type = "radio" id="mc" name="question3" value="John 'Rhodey' Rhodes">John 'Rhodey' Rhodes<br>
+            <input type = "radio" id="mc" name="question3" value="Jameson 'Rhodey' Rhodes">Jameson 'Rhodey' Rhodes<br>
+            <input type = "radio" id="mc" name="question3" value="James 'Rhodey' Rhodes">James 'Rhodey' Rhodes<br>
+            
+            <p>What is Spider-Man's Full Name?</p>
+            <input type = "radio" id="mc" name="question4" value="Peter Richard Parker">Peter Richard Parker<br>
+            <input type = "radio" id="mc" name="question4" value="Peter James Parker">Peter James Parker<br>
+            <input type = "radio" id="mc" name="question4" value="Parker James Peters">Parker James Peters<br>    
+            
+            <p>Who was the leader of Spider-Man's Enemies known as The Sinister Six?</p>
+            <input type = "radio" id="mc" name="question5" value="Shocker">Shocker<br>
+            <input type = "radio" id="mc" name="question5" value="Dr.Octopus">Dr.Octopus<br>
+            <input type = "radio" id="mc" name="question5" value="Mysterio">Mysterio<br>
+            <input type = "radio" id="mc" name="question5" value="Electro">Electro<br>
+            
+            <p>How many Black Marvel Superheroes are there? Hint use numeric not letters</p> 
+            <input id = "textbook" type = "text" name="question6">
+            
+            <input id = "button" type="button" value="Finished" onclick= "check();">
+
+        </form>
+        
+        <div id = "after_submit">
+        <p id = "message"></p>
+        <p id = "number_correct"></p>
+        <img id = "image">
+        </div>
+
+
+
+    <script type="text/javascript" src="../Assets/javascript/game.js"></script>
+    <footer>
+        <div>
+            Copyright 2019 Julian K Hicks
+        </div>
+    </footer>
+
+    </body>
+</html>
