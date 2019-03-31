@@ -73,7 +73,7 @@ var correct = 0;
 
 var messages = ["Amazing, You know your Marvel", "Good Work", "Pretty Good", "Not bad", "You should know more", "You don't know Marvel"];
 var range;
-var images = ["Img/Forever.gif", "Img/Power.gif", "Img/Good.gif", "Img/Cool.gif", "Img/Agreed.gif", "Img/Failure.gif"];
+var images = ["./images/Forever.gif", "./images/Power.gif", "./images/Good.gif", "./images/Cool.gif", "./images/Agreed.gif", "./images/Failure.gif"];
 
     if (correct < 1) {
         range = 5;
